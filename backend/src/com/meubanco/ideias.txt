@@ -1,0 +1,15 @@
+1. Criar um método transferir (Interação entre Objetos)
+
+Na Orientação a Objetos, um objeto pode interagir com outro da mesma classe. Você pode criar um método que recebe um valor e outra ContaBancaria como destino.
+• O desafio: Fazer a transferência reutilizando os métodos sacar e depositar que você já criou, sem mexer diretamente no this.saldo.
+
+2. Blindar o Construtor (Validação na Criação)
+
+Hoje, se alguém criar uma conta passando um CPF vazio ("") ou com menos de 11 dígitos, ou um nome em branco ("   "), a conta é criada mesmo assim.
+• O desafio: Usar métodos da classe String (como .isBlank() ou .length()) dentro do construtor ou criar um setNome() com validação para impedir dados inválidos.
+
+3. Separar o main e criar um Menu Interativo (Scanner)
+
+No mundo real, a classe ContaBancaria não costuma ter o método main dentro dela. Ela fica em um arquivo separado, e outra classe (como Main.java ou Banco.java) é quem cria os objetos e interage com o usuário.
+• O desafio: Criar um menu no terminal usando a classe Scanner com um loop while, onde você mesmo digita as opções (1 - Depositar, 2 - Sacar, 3 - Ver Saldo, 0 - Sair).
+Qual dessas três ideias te chama mais atenção para implementarmos agora? (Se quiser, já posso te dar as dicas iniciais de como montar a que você escolher!).

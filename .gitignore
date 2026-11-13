@@ -1,0 +1,23 @@
+# Compilação Java (arquivos gerados)
+*.class
+bin/
+target/
+build/
+*.jar
+*.war
+
+# VS Code e Eclipse
+.vscode/
+.classpath
+.project
+.settings/
+
+# Futuro Front-end (Node / React / Vue)
+node_modules/
+dist/
+.env
+
+# Arquivos do Sistema Operacional (Windows / Mac)
+Thumbs.db
+Desktop.ini
+.DS_Store
